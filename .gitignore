@@ -1,0 +1,92 @@
+# ── Generated outputs ─────────────────────────────────────────────────────────
+# Uncomment the lines below if you do NOT want to commit generated files.
+# The static PNGs and interactive HTML are large; the merged CSV is ~11 MB.
+
+# heatmap_static_full.png
+# heatmap_static_by_region.png
+# heatmap_static_urbanrural.png
+# heatmap_interactive.html
+# merged_schools_myanmar_2019.csv
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Distribution / packaging
+.eggs/
+*.egg-info/
+dist/
+build/
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env
+.venv
+pip-wheel-metadata/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Testing & coverage ────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+*.coveragerc
+
+# ── IDEs & editors ────────────────────────────────────────────────────────────
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+
+# Spyder
+.spyderproject.cfg
+.spyproject
+
+# Rope
+.ropeproject
+
+# ── OS artifacts ─────────────────────────────────────────────────────────────
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.Trash-*
+.nfs*
+
+# ── Logs & temporary files ────────────────────────────────────────────────────
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# ── Contextily tile cache ─────────────────────────────────────────────────────
+# contextily caches map tiles locally; exclude if desired
+# ~/.cache/contextily/
