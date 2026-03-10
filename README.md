@@ -173,7 +173,7 @@ The script appends two columns when producing `merged_schools_myanmar_2019.csv`:
 | `heatmap_static_full.png` | ~1.6 MB | Full-country KDE density map |
 | `heatmap_static_by_region.png` | ~5 MB | Faceted KDE map — one panel per state/region |
 | `heatmap_static_urbanrural.png` | ~4 MB | Side-by-side Urban vs Rural density comparison |
-| `index.html` | ~4.8 MB | Interactive Folium map (interactive heatmap) with togglable layers |
+| `heatmap_interactive.html` | ~4.8 MB | Interactive Folium map (interactive heatmap) with togglable layers |
 
 ### `heatmap_static_full.png`
 
@@ -224,7 +224,7 @@ myanmar-school-heatmap/
 ├── heatmap_static_full.png                               # Generated — full-country heatmap
 ├── heatmap_static_by_region.png                          # Generated — per-region facets
 ├── heatmap_static_urbanrural.png                         # Generated — urban vs rural
-└── heatmap_interactive.html                              # Generated — interactive map
+└── index.html (heatmap_interactive.html)                 # Generated — interactive map
 ```
 
 > The five generated files are committed to this repository for convenience. To regenerate them from scratch, run `python school_heatmap.py` after installing the dependencies.
@@ -526,3 +526,4 @@ Full terms and conditions: http://themimu.info/mimu-terms-conditions
 - **[CartoDB](https://carto.com/basemaps/)** — Dark Matter and Positron basemap tile sets used in both static and interactive outputs.
 
 - **[GeoNode](http://geonode.org/)** (v2.4.1) — open-source geospatial content management platform powering the MIMU data portal.
+
